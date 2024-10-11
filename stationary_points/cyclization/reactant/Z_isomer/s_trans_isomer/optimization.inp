@@ -1,0 +1,11 @@
+! wB97X-D3 def2-TZVP TightSCF Smallprint
+
+! Opt Freq DEFGRID3
+
+! CPCM(Acetonitrile) 
+
+%pal nprocs 16 end
+
+%maxcore 8000
+
+*xyzfile 0 1 cluster_centroid_0000.xyz  

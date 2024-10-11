@@ -1,0 +1,7 @@
+! wB97X-D3 def2-TZVP  Opt Freq CPCM(THF) DEFGRID3
+# Number of processors
+%pal nprocs 8 end
+# RAM per processor
+%maxcore 10000
+
+* XYZfile 0 1 guess.xyz

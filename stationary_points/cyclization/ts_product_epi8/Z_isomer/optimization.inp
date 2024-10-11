@@ -1,0 +1,17 @@
+! wB97X-D3 def2-TZVP VeryTightSCF Smallprint DEFGRID3
+
+! OptTS Freq
+
+! CPCM(Acetonitrile) 
+
+%pal nprocs 32 end
+
+%geom
+TS_Active_Atoms {1 2 79} end
+Trust -0.025
+MaxStep 0.025
+end
+
+%maxcore 10000
+
+*xyzfile 0 1 preoptimization.xyz  

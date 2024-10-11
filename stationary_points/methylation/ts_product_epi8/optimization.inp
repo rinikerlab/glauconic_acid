@@ -1,0 +1,11 @@
+! wB97X-D3 def2-TZVP TightSCF Smallprint DEFGRID3
+
+! OptTS Freq
+
+! CPCM(THF) 
+
+%pal nprocs 16 end
+
+%maxcore 8000
+
+*xyzfile 0 1 calc_centroid_0004.xyz  

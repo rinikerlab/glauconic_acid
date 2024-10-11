@@ -1,0 +1,15 @@
+! wB97X-D3 def2-TZVP TightSCF Smallprint DEFGRID3
+
+! OptTS Freq
+
+! CPCM(Acetonitrile) 
+
+%pal nprocs 16 end
+
+%maxcore 8000
+
+%geom
+Recalc_Hess 10
+end
+
+*xyzfile 0 1 preoptimization.xyz  
