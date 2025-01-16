@@ -24,7 +24,7 @@ def main():
 
     xyz_blocks = []
     block = None
-    comparison_string = f" {n_atoms}\n"
+    comparison_string = f"  {n_atoms}\n"
     # Split the conformers into separate blocks
     for line in all_lines:
         if line == comparison_string:
